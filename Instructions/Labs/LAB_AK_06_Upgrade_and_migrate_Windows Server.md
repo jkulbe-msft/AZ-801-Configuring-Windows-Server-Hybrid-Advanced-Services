@@ -15,7 +15,7 @@ lab:
 1. On **SEA-SVR2**, start Microsoft Edge, and access a customized version of the QuickStart template at **[Create a new Windows VM and create a new AD Forest, Domain and DC](https://github.com/az140mp/azure-quickstart-templates/tree/master/application-workloads/active-directory/active-directory-new-domain)**. 
 1. On the **Create a new Windows VM and create a new AD Forest, Domain and DC** page, select **Deploy to Azure**. This will automatically redirect the browser to the **Create an Azure VM with a new AD Forest** page in the Azure portal.
 1. On the **Create an Azure VM with a new AD Forest** page, select **Edit template**.
-1. On the **Edit template** page, browse to the **storageProfile** section (starting with the line **195**) and verify that the **sku** (on line **199**) is set to **2022-Datacenter** and that **dataDisks** **caching** (on line **213**) is set to **None**.
+1. On the **Edit template** page, browse to the **storageProfile** section (starting with the line **195**) and verify that the **sku** (on line **199**) is set to **2019-Datacenter** and that **dataDisks** **caching** (on line **213**) is set to **None**.
 
    > **Note**: Caching on the disks hosting AD DS database and log files should be set to **None**.
 
